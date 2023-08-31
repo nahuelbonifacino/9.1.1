@@ -31,7 +31,7 @@ function showList(array) {
   // Más info de forEach => https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
   array.forEach((element) => {
     const li = document.createElement("li");
-    li.appendChild(document.createTextNode(element + "(" + typeof(element)+ ")"));
+    li.appendChild(document.createTextNode(element));
     container.appendChild(li);
   });
 }
